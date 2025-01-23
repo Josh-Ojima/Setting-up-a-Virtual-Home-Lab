@@ -46,7 +46,7 @@ In this setup I will be using Oracle VM VirtualBox because it is compatible with
 
 <h2>Downloading and Installing VirtualBox</h2>
 
-Download Oracle VM VirtualBox by [clicking here]([url](https://www.virtualbox.org/wiki/Downloads)). Once the download completes, I launched the installation. 
+Download Oracle VM VirtualBox by [clicking here](https://www.virtualbox.org/wiki/Downloads). Once the download completes, I launched the installation. 
 
 <img src="folder/VirtualBox-Install.jpg"> 
 
@@ -200,7 +200,7 @@ The easiest way to find what you're looking for is to simply google the name of 
 
  
 
-["Windows Server 2016 ISO Download"]([url](https://www.google.com/search?q=windows+server+2016+iso+download&rlz=1C1CHBF_enUS774US774&oq=Windows+Server+2016+ISO+Download&aqs=chrome.0.0l6.1206j1j7&sourceid=chrome&ie=UTF-8)). 
+["Windows Server 2016 ISO Download"](https://www.google.com/search?q=windows+server+2016+iso+download&rlz=1C1CHBF_enUS774US774&oq=Windows+Server+2016+ISO+Download&aqs=chrome.0.0l6.1206j1j7&sourceid=chrome&ie=UTF-8). 
 
 You should ONLY download ISOs from official websites. This means you shouldn't download Windows Server from a website like "sneakyfreecdkeys.com"... 
 
@@ -208,15 +208,15 @@ You should ONLY download ISOs from official websites. This means you shouldn't d
 
 I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download. 
 
-[Windows Server 2016]([url](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016?filetype=ISO)) 
+[Windows Server 2016](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016?filetype=ISO) 
 
-[Windows 10 (requires a valid Windows 10 license to download)]([url](https://www.microsoft.com/en-us/software-download/windows10)) 
+[Windows 10 (requires a valid Windows 10 license to download)](https://www.microsoft.com/en-us/software-download/windows10) 
 
-[Centos 7 ]([url](https://www.centos.org/download/))
+[Centos 7 ](https://www.centos.org/download/)
 
-[Ubuntu]([url](https://ubuntu.com/download/desktop)) 
+[Ubuntu](https://ubuntu.com/download/desktop) 
 
-[Kali Linux]([url](https://www.kali.org/downloads/)) 
+[Kali Linux](https://www.kali.org/downloads/) 
 
  
 
