@@ -20,15 +20,7 @@ Let's dive in!
 </ul>
 
 
- 
-
-
-
- 
-
- 
-
-Virtualization Overview 
+<h2>Virtualization Overview</h2> 
 
 So what is virtualization anyway? Basically, the IT term virtualization refers to the practice of emulating (or simulating) a computer. You can use a Virtual Machine to run a computer as an application on your host computer. 
 
@@ -36,95 +28,85 @@ So what is virtualization anyway? Basically, the IT term virtualization refers t
 
 On the image below - the top computer would be the host computer. The three computers below the host are referred to as guest virtual machines. 
 
-VMs 
+<img src= "">
 
-Virtual machines act like real computers, but run as a software program. So you can start, restart, shut down, install software and operating systems just like you would on a normal computer. 
-
-This makes virtual machines perfect for IT labs. 
+Virtual machines act like real computers, but run as a software program. So you can start, restart, shut down, install software and operating systems just like you would on a normal computer. This makes virtual machines perfect for IT labs. 
 
  
 
-Free Virtualization Software 
+<h2>Free Virtualization Software</h2>
 
 With so many different virtualization software options available, it can be pretty confusing to know which one is the "best" and which one you should use. Let's address this now. 
 
-  
-
 There is no "best" virtualization software. There are simply different options - and the ones you should consider will depend on your host operating system. 
-
-  
 
 In this setup I will be using Oracle VM VirtualBox because it is compatible with both Windows and Linux, but you can use any you want. The steps will nearly be identical to other virtualization software.  
 
  
 
-  
+<h2>Downloading and Installing VirtualBox</h2>
 
-Downloading and Installing VirtualBox 
+Download Oracle VM VirtualBox by [clicking here]([url](https://www.virtualbox.org/wiki/Downloads)). Once the download completes, I launched the installation. 
 
-Download Oracle VM VirtualBox by clicking here. Once the download completes, I launched the installation. 
-
-VirtualBox Install 
+<img src="folder/VirtualBox-Install.jpg"> 
 
 I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'. 
 
-VirtualBox Complete 
+<img src="folder/VirtualBox-Complete.jpg">
 
 Click Finish and launch VirtualBox. 
 
-VirtualBox Dashboard 
+<img src="folder/VirtualBox-Dashboard.jpg">
 
-Creating a Virtual Machine 
+<h2>Creating a Virtual Machine</h2> 
 
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager. 
 
-New 
+<img src="folder/New.jpg">
 
 This will launch the new VM window. Go ahead and click the Expert Mode button. Don't worry - it doesn't make the process more difficult it only allows you to create a VM while navigating through less pages. 
 
-New-VM 
+<img src="folder/New-VM.jpg">
 
 I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create. 
 
-New-Vm2 
+<img src="folder/New-Vm2.jpg">
 
 This will open another window for creating the Virtual Hard Disk. The default options here are all fine except for the File Size. I am going to set my new HDD to 60GB and then choose Create. 
 
-New-VM-HDD 
+<img src="folder/New-VM-HDD.jpg">
 
 Since this HDD is going to be dynamically allocated (option on the middle-right of the screenshot below), the HDD file will only be as large as the amount of data stored on it - and a maximum of 60GB 
 
 Now you will see MyVM listed on the VirtualBox dashboard. Before we start the VM we can modify the settings of the VM if we want. Generally you might want to assign more processors, change the networking adapters and mount an ISO. 
 
-VM Settings 
+<img src="folder/VM-Settings.jpg"> 
 
 Increasing the processor CPUs can greatly improve the performance of your VM, so if at all possible increase the number of CPUs to 2. 
 
 Pro tip: Storing the VM's hard disk file on an SSD will also significantly increase the VMs performance. 
 
-CPUs 
+<img src="folder/VM-Network.jpg"> 
 
 And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section. 
 
  
 
-Creating a Virtual Network with VirtualBox 
+<h2>Creating a Virtual Network with VirtualBox</h2>
 
 Virtual Networks allow you to connect your VMs to whatever you want. There are several different types of networks you can create with VirtualBox and the one you chose will depend on your requirements. 
 
   
-
 Keep in mind that you won't be able to access all of these network types if you haven't created a VM because some of them are configured from within the VM settings. 
 
   
-
 Here is an overview of the different network types you could create: 
 
-VirtualBox VM Adapter Types 
+<img src="folder/VirtualBox-VM-Adapter-Types.jpg"> 
 
  
 
-NAT 
+<h2>NAT</h2> 
 
 This network type allows your VMs to use the internet connectivity of the host computer. You will have no connectivity to other VMs or the host computer. Use this type if your lab will only have one VM. 
 
